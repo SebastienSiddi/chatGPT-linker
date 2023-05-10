@@ -68,7 +68,7 @@ const Chat = ({ setOpenChat, name1Value, name2Value, promptValue }) => {
             model: "gpt-3.5-turbo",
             messages: [
               {
-                role: "assistant",
+                role: "user",
                 content: responseChat1[responseChat1.length - 1],
               },
             ],
